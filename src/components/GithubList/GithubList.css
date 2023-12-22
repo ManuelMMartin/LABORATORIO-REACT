@@ -1,0 +1,55 @@
+.main {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input_container {
+  display: flex;
+  gap: 10px;
+}
+
+.input_table,
+.button_table {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button_table {
+  width: 100px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+}
+
+.elemento {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.SelectRow {
+  cursor: pointer;
+}
